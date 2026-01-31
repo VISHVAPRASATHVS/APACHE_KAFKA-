@@ -25,8 +25,9 @@ To get started with Kafka and Zookeeper, follow these steps:
 
 Use Docker Compose to start the Zookeeper and Kafka services:
 
-```bash code:
-docker-compose up -d
+   ```bash code:
+   docker-compose up -d
+
 This command will start both Zookeeper and Kafka in detached mode.
 
 3. **Accessing Kafka**
@@ -64,4 +65,4 @@ KAFKA_AUTO_CREATE_TOPICS_ENABLE: Enable auto-creation of topics
 
 Stopping the Services:
 To stop the services, run:
---docker-compose down
+   docker-compose down
